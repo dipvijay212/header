@@ -1,0 +1,731 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+}
+ .nav
+{
+    width: 100%;
+    height: 75px;
+    background-color: white;  
+    
+}
+.navbar
+{
+    width: 95%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.list-menu ul
+{
+
+    display: flex;
+    padding: 0px;
+    
+}
+.list-menu ul li 
+{ 
+    padding: 0px 15px;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15PX;
+    font-style: normal;
+    position: relative;
+    align-items: center;
+    
+    
+  
+}
+.list-menu li a
+{
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+}
+.list-menu li a::before
+{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    top: -100%;
+    left: 0%;
+    background-color: #f78da7;
+    transition: all 0.5s;
+
+}
+.list-menu li a:hover
+{
+    color: #f78da7;
+}
+.list-menu li a:hover::before
+{
+    width: 100%;
+}
+.icones
+{
+    display: flex;
+    align-items: center;
+}
+.ri-user-3-fill
+{
+    padding-right: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+.icones a
+{
+    padding-right: 10px; 
+    text-decoration: none;
+}
+.icones a h6
+{
+    font-size: 18px;
+    color: #000000;
+}
+.ri-shopping-bag-fill
+{
+    font-size: 18px;
+    color: #000000;
+}
+sup
+{
+    padding: 5px 5px;
+    margin-left: -6px;
+     font-size: 12px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.ri-menu-line
+{
+    font-size: 25px;
+    color: #f78da7;
+    visibility: hidden;
+
+}
+@media screen and (max-width:968px)
+{
+    .list-menu ul
+    {
+       display: none;
+    }
+    .list-menu ul li 
+    {
+        padding: 10px 0px;
+        font-size: 15px;
+        color: #000000;
+    
+    }
+    .ri-user-3-fill
+    {
+        visibility: hidden;
+    }
+    .text-1
+    {
+        display: none;
+    }
+    .ri-shopping-bag-fill
+    {
+        display: none;
+    }
+    .ri-menu-line
+    {
+        visibility: visible;
+    } 
+
+
+    
+}
+.accordion-body
+{
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  background-color: #f6edf0;
+  width: 100%;
+ }
+ .list-menu2 ul
+ {
+    list-style: none;
+    padding-left: 0%;
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+ }
+ .list-menu2 ul li  a
+ {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 0px;
+    display: block;
+
+
+}
+.list-menu2 ul li  a:hover
+{
+    color: #f78da7;
+}
+.offcanvas-header
+{
+    border-bottom: 1px solid rgb(139, 139, 139,0.15);
+}
+.bod
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.bod p
+{
+    color: #000000;
+    font-size: 18px;
+}
+.countinus
+{
+    margin-left: 10px;
+}
+.countinus a
+{
+  padding: 10px 90px;
+  background-color: #000000;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.5s;
+
+}
+.countinus a:hover
+{
+    color: white;
+    background-color: #f78da7;
+}
+.bg-1
+{
+    background-image: url("/images/bg-1.jpg");
+     height: 87vh;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+}
+.bg-2{
+    background-color: transparent;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.bg-2 h6{
+    font-size: 14px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.bg-2 h1
+{
+    font-size: 60px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.bg-2 p
+{
+    font-size: 25px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.bg-2 a
+{
+    font-size: 15px;
+    color: #000000;
+    background-color: white;
+    padding: 14px 28px;
+    transition: all 0.5s;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.bg-2 a:hover
+{
+    color: #f78da7;
+}
+.pd h6
+{
+    text-align: center;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #5d5b5b;
+}
+.pd h1
+{
+    text-align: center;
+    font-size:  50px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+}
+.icone-1 i
+{
+   font-size: 15px;
+   color: #5d5b5b;
+}
+.TEXT-1 a
+{
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Marcellus", serif;
+    font-weight: 300;
+
+}
+.log p
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-radius: 50px;
+    padding: 4px 12px;
+    font-size: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px 0 grey;
+    color: #5d5b5b;
+}
+.log1
+{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    font-size: 18px;
+    padding: 0px 4px;
+    background-color: white;
+    border-radius: 50%;
+    color: #5d5b5b;
+    box-shadow: 0 1px 4px 0 grey;
+    visibility: hidden;
+}
+.imges-1:hover .log1{
+    visibility: visible; 
+}
+.bg-5
+{
+    background-image: url("/images/bg-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 87vh;
+
+}
+.bxx-1{
+    background-color: transparent;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.bxx-1 h6{
+    font-size: 14px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.bxx-1 h1
+{
+    font-size: 45px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.bxx-1 p
+{
+    font-size: 18px;
+    font-weight: 350;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.bxx-1 a
+{
+    font-size: 15px;
+    color: #000000;
+    background-color: white;
+    padding: 14px 28px;
+    transition: all 0.5s;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.bxx-1 a:hover
+{
+    color: #f78da7;
+}
+.boxx-3
+{
+    background-color: #d4a6b6;
+    width: 50px;
+    height: 1px;
+}
+.bxxx-1 i
+{
+    color: #f0ad4e;
+    font-size: 20px;
+}
+.t-1 h6
+{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5d5b5b; 
+}
+.t-1 h1
+{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 33px;
+}
+.tttt-1 p
+{
+   font-size: 17px;
+   padding-top: 15px;
+   font-weight: 300px;
+}
+.tttt-1 h6
+{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #5d5b5b;
+} 
+.txt-1 h6
+{
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    color: white;
+    margin: 0%;
+}
+.txt-1 h1
+{
+    font-size: 38px;
+    font-family: "Marcellus", serif;
+    color: white;
+}
+.txt-1 h4
+{
+    font-size: 22px;
+    font-family: "Marcellus", serif;
+    color: white;
+    padding-bottom: 15px;
+}
+.txt-1 a
+{
+    font-size: 15px;
+    color: #000000;
+    background-color: white;
+    padding: 14px 28px;
+    transition: all 0.5s;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.txt-1 a:hover
+{
+    color: #f78da7;
+}
+.txt-1
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.cc-1 h6
+{
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    color: #5d5b5b;
+    padding-bottom: 10px;
+
+}
+.cc-2
+{
+    width: 50px;
+    height: 1px;
+    background-color: #d4a6b6;
+}
+.ic-1 i
+{
+    padding: 5px 5px;
+    background-color: #d4a6b6;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.4s;   
+}
+.ic-1 i:hover
+{
+    background-color: #000000;
+}
+.cc-3 h6
+{
+    font-size: 25px;
+    font-family: "Marcellus", serif;
+    margin: 0%;
+
+}
+.cc-3 p
+{
+    font-size: 17px;
+    color: #000000;
+}
+/* shop all css */
+.cg-1 p
+{
+    color: #5d5b5b;
+
+}
+.cro-1 h1
+{
+    font-size: 65px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+
+}
+.rwc-1 p
+{
+    font-size: 18px;
+    color: #5d5b5b;
+    font-weight: 300;
+}
+#dp
+{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    color: #5d5b5b;
+    font-weight: 350;
+}
+.section a
+{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    transition: all 0.2s;
+}
+.section a:hover
+{
+    background-color: black;
+    color: white;
+}
+/* fotter*/
+
+  @media(max-width:991px){
+    .ttxt-1{
+        text-align: center;
+    }
+    .imi-1
+    {
+        text-align: center;
+    }
+    .rwc-5 ul{
+        text-align: center;
+        margin-right: 30px;
+    }
+    .rwc-6 ul
+    {
+        text-align: center;
+        margin-right: 30px;
+    }
+    .icon5
+    {
+        text-align: center;
+        margin-right: 210px;
+    }
+
+    
+}
+/* fotter*/
+footer
+{
+    background-color: #f6edf0;
+
+}
+.ttxt-1 p
+{
+    font-size: 25px;
+    font-family: "Marcellus", serif;
+    font-weight: 300;
+    
+}
+.bor button
+{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: none;
+    transition: all 0.1s;
+}
+button:hover
+{
+    background-color: #d4a6b6;
+}
+input
+{
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 10px;
+    
+}
+.rwc-5 ul li
+{
+    list-style: none;
+}
+.rwc-5 ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.rwc-5 ul li a:hover
+{
+    color: rgb(156, 156, 156);
+}
+.rwc-6 ul li
+{
+    list-style: none;
+
+}
+.rwc-6 ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+    transition: all 0.5s; 
+}
+.rwc-6 ul li a:hover
+{
+    color: rgb(156, 156, 156);
+}
+.icon5
+{
+    text-align: end;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.icon5 i:hover
+{
+    color: #d4a6b6;
+    cursor: pointer;
+}
+.tui p
+{
+    font-size: 17px;
+    color: #5d5b5b;
+    font-weight: 400;
+}
+/* index212 */
+.ttst-1 a
+{
+   text-decoration: none;
+   font-weight: 350;
+   font-size: 16px;
+
+}
+.ttst-1 h6 a
+{
+    text-decoration: none;
+    color: #000000;
+
+}
+.ttst-1 h1
+{
+    font-size: 30px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.ttst-1 p
+{
+    font-size: 17px;
+    color: #5d5b5b;
+    padding-bottom: 7px;
+}
+.boxr-1 
+{
+    display: inline;
+    padding: 10px 0px;
+    border: 1px solid grey;
+    border-right: none;
+}
+.boxr-1 a
+{
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-left: none;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+.boxr-2 a
+{
+    padding: 10px 20px;
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.boxr-2 a:hover
+{
+    background-color: #d4a6b6;
+}
+/* payment */
+.pbody
+{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pdetails
+{
+    width: 50%;
+    height: 550px;
+    background-color: #686d76;
+    margin: auto;
+}
+.inp1 input
+{
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    color: #000000;
+}
+.cards a img
+{
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
+.pb a
+{
+    padding: 10px 20px;
+    background-color: #DC5F00;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+

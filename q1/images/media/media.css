@@ -1,0 +1,11 @@
+@media screen and(max-width:920px)
+{
+    .list-menu
+    {
+        display: none;
+    }
+    .icones
+    {
+        display: none;
+    }
+}
